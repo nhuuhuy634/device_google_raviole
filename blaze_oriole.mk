@@ -17,9 +17,9 @@ EXTRA_UDFPS_ANIMATIONS := true
 WITH_GMS := true
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
-$(call inherit-product, device/google/gs101/lineage_common.mk)
+$(call inherit-product, device/google/gs101/blaze_common.mk)
 
-include device/google/raviole/oriole/device-lineage.mk
+include device/google/raviole/oriole/device-blaze.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
